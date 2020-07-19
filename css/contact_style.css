@@ -1,0 +1,53 @@
+@charset 'utf-8';
+
+#wrap section .bg_area {
+    height: 560px;
+    background: url('../contact/images/contact-us.jpg') fixed no-repeat 30% 80%;
+    background-size: cover;
+    overflow: hidden;
+    padding: 130px;
+    box-sizing: border-box;
+}
+
+#wrap section .bg_area h3 {
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#wrap section .bg_area span {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-family: 'noto Sans Kr', sans-serif;
+    font-weight: 500;
+}
+
+#wrap section .contact_area {   
+    width: 60%;
+    height: 750px;
+    margin: auto;
+    padding: 50px;
+}
+
+#wrap section .contact_area .contact_wrap {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wrap section .contact_area .contact_wrap h3 {
+    font-weight: 600;
+    color: #000;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    #wrap section .contact_area {
+        width: 100%;
+    }
+}

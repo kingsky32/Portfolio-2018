@@ -1,0 +1,102 @@
+@charset 'utf-8';
+
+#wrap header #gnb .menu_btn {
+    display: none;
+}
+
+#wrap section .bg_area {
+    height: 400px;
+    background: url('../skills/images/bg-cover-article.png') fixed no-repeat 30% 80%;
+    background-size: cover;
+    overflow: hidden;
+    padding: 130px;
+    box-sizing: border-box;
+}
+
+#wrap section .bg_area h3 {
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#wrap section .bg_area span {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #eee;
+    opacity: 0.6;
+    font-family: 'noto Sans Kr', sans-serif;
+    font-weight: 500;
+}
+
+#wrap section .skills_area {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+.skills_area .skills_align_left {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+.skills_area .skills_align_left .progress_bar {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.skills_area .skills_align_left .progress_bar span {
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skills_area .skills_align_left .progress_bar div {
+    display: inline-block;
+    width: 80%;
+    height: 8px;
+}
+
+.skills_area .skills_align_right {
+    width: 60%;
+    height: 450px;
+    float: right;
+    padding: 50px 70px;
+    box-sizing: border-box;
+}
+
+.skills_area .skills_align_right img {
+    width: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    #wrap header #gnb .menu_btn {
+        display: block;
+    }
+
+    #wrap section .bg_area h3 {
+        color: #000;
+    }
+
+    #wrap section .bg_area span {
+        color: #333;
+    }
+
+    #wrap section .skills_area {
+        height: 600px;
+    }
+
+    .skills_area .skills_align_left .progress_bar div {
+        width: 100%;
+    }
+
+    .skills_area .skills_align_right img {
+        width: 50px;
+    }
+
+}

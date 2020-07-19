@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/icon.png">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" type="text/css">
+    <link rel="stylesheet" href="css/reset-min.css" type="text/css">
+    <link rel="stylesheet" href="css/bass.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="lib/jquery-1.11.1.min.js"></script>
+    <script src="lib/jquery.easing.1.3.js"></script>
+    <script src="script/header.script.js"></script>
+    <script src="script/index.script.js"></script>
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <div id="wrap">
+        <div class="load">
+            <img src="images/loading.gif" alt="loading">
+        </div>
+        <nav id="navigator">
+            <div class="nav_line"></div>
+            <a href="#1" onclick="return false"><span class="dot"></span></a>
+            <a href="#2" onclick="return false"><span class="dot"></span></a>
+            <a href="#3" onclick="return false"><span class="dot"></span></a>
+            <a href="#4" onclick="return false"><span class="dot"></span></a>
+        </nav>
+        <header>
+            <nav id="gnb">
+                <div class="align_left">
+                    <a href="https://www.instagram.com/kingsky32/"><img src="images/icons/instagram_icon_black.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004252961772"><img src="images/icons/facebook_icon_black.png" alt="facebook"></a>
+                </div>
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo_black.png" alt="logo">
+                    </a>
+                </h1>
+                <div class="menu_btn">
+                    <img src="images/icons/menu_btn.png" alt="menu">
+                </div>
+            </nav>
+        </header>
+        <section>
+            <article class="menu_vis">
+                <img src="images/logo.png" alt="logo" id="menu_logo">
+                <img src="images/icons/x_btn.png" alt="btn" id="x_btn">
+                <div class="menu_link">
+                    <a href="index.html">Portfilo</a>
+                    <a href="about/about.html">About</a>
+                    <a href="skills/skills.html">Skills</a>
+                    <a href="contact/contact.html">Contact</a>
+                </div>
+            </article>
+            <article class="article_main" id="1">
+                <h2>SeungJu Portfolio</h2>
+                <span>오승주 포트폴리오</span>
+                <div class="learn_more">
+                    <span>LEARN MORE</span>
+                    <img src="images/icons/soft_arrow_down.png" alt="learn_more">
+                </div>
+            </article>
+            <article class="article_profile" id="2">
+                <h3>PROFILE</h3>
+                <div class="profile_wrap">
+                    <img src="images/portfolio/main/picture.png" alt="picture">
+                    <div class="profile_info">
+                        <h4>오승주</h4><span>Web Publisher &amp; Designer</span>
+                        <hr>
+                        <ul>
+                            <li><img src="images/icons/cake.png" alt="">2000.09.27</li>
+                            <li><img src="images/icons/map_marker.png" alt="">인천 서구 심곡동 거주</li>
+                            <li><img src="images/icons/cap.png" alt="">인천디자인고등학교 시각디자인학과 졸업</li>
+                            <li><img src="images/icons/call.png" alt="">010-8327-3235</li>
+                            <li><img src="images/icons/message.png" alt="">kingsky32@gmail.com</li>
+                        </ul>
+                        <hr>
+                        <ul>
+                            <li>GTQ</li>
+                            <li>GTQ-I</li>
+                            <li>컴퓨터그래픽스운용기능사</li>
+                            <li>웹디자인기능사</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="article_project" id="3">
+                <ul class="category">
+                    <li data-filter="*" class="cate_on">ALL</li>
+                    <li data-filter="leaf">LEAFLET</li>
+                    <li data-filter="book">BOOKCOVER</li>
+                    <li data-filter="web">WEBDEISGN</li>
+                    <li data-filter="logo">LOGO</li>
+                    <li data-filter="etc">ETC</li>
+                </ul>
+                <div class="project_area">
+                    <div class="project_wrap">
+                        <div class="project" data-filter="web">
+                            <a href="project/project_line_web/project.html"><img src="project/project_line_web/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>Line</h5>
+                                    <span>WEBDESIGN</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="web">
+                            <a href="project/project_line_app/project.html"><img src="project/project_line_app/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>Line</h5>
+                                    <span>APPDESIGN</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="web">
+                            <a href="project/project_dear_app/project.html"><img src="project/project_dear_app/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>Dear my pet</h5>
+                                    <span>APPDESIGN</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="logo">
+                            <a href="project/project_garbege_logo/project.html"><img src="project/project_garbege_logo/images/Preview.png" alt="sample">
+                                <div class="project_hover">
+                                    <h5>GARBAGE COLLECTION</h5>
+                                    <span>LOGO</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project_wrap">
+                        <div class="project" data-filter="leaf">
+                            <a href="project/project_green/project.html"><img src="project/project_green/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>초록우산</h5>
+                                    <span>LEAFLET</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="etc">
+                            <a href="project/project_elec_phonecase/project.html"><img src="project/project_elec_phonecase/images/iPhone%20Case%20Mockup.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>Elec. Phonecase</h5>
+                                    <span>ETC</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="book">
+                            <a href="project/project_none_bookcover/project.html"><img src="project/project_none_bookcover/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>그리고 아무도 없었다</h5>
+                                    <span>BOOKCOVER</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="logo">
+                            <a href="project/project_chong_logo/project.html"><img src="project/project_chong_logo/images/thumb.png" alt="sample">
+                                <div class="project_hover">
+                                    <h5>청화영</h5>
+                                    <span>LOGO</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project_wrap">
+                        <div class="project" data-filter="web">
+                            <a href="project/project_gisul_app/project.html"><img src="project/project_gisul_app/images/1.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>기술자들</h5>
+                                    <span>APPDESIGN</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="leaf">
+                            <a href="project/project_indentity_leaflet/project.html"><img src="project/project_indentity_leaflet/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>Identity</h5>
+                                    <span>LEAFLET</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="etc">
+                            <a href="project/project_dear_poster/project.html"><img src="project/project_dear_poster/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>Dear my pet</h5>
+                                    <span>ETC</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="logo">
+                            <a href="project/project_starbox_logo/project.html"><img src="project/project_starbox_logo/images/thumb.png" alt="sample">
+                                <div class="project_hover">
+                                    <h5>STAR BOX</h5>
+                                    <span>LOGO</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project_wrap">
+                        <div class="project" data-filter="etc">
+                            <a href="project/project_andy_megazine/project.html"><img src="project/project_andy_megazine/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>Andy</h5>
+                                    <span>ETC</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="etc">
+                            <a href="project/project_guitar_videoedit/project.html"><img src="project/project_guitar_videoedit/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>Video Edit</h5>
+                                    <span>ETC</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="etc">
+                            <a href="project/project_iu_phonecase/project.html"><img src="project/project_iu_phonecase/images/iPhone%20Case%20Mockup.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>IU PhoneCase</h5>
+                                    <span>ETC</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project" data-filter="book">
+                            <a href="project/project_ua/project.html"><img src="project/project_ua/images/thumb.jpg" alt="sample">
+                                <div class="project_hover">
+                                    <h5>우아한 밤과 고양이들</h5>
+                                    <span>BOOKCOVER</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer id="4">
+            <div class="footer_wrap">
+                <div class="footer_align_left">
+                    <a href="https://www.instagram.com/kingsky32/"><img src="images/icons/instagram_icon_black.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004252961772"><img src="images/icons/facebook_icon_black.png" alt="facebook"></a>
+                </div>
+                <a href="index.html">
+                    <h1><img src="images/logo_black.png" alt="logo"></h1>
+                </a>
+                <div class="footer_align_right">
+                    <span>&copy;2019. <a href="index.html">SeungJuPortFolio</a> All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body></html>
